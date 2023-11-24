@@ -58,7 +58,9 @@ main {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
+  background-color: white;
+  color: green;
 }
 
 /* Панель управления */
@@ -85,7 +87,8 @@ main {
 /* Список экзотических фруктов */
 .fruits__wrapper {
   flex-basis: 75%;
-  background: #fff;
+  background-image: url(https://picstatio.com/download/1920x1080/7aat_2/anime-girl-dinner-food-wallpaper.jpg);
+  background-repeat: no-repeat;
   max-height: inherit;
   overflow: hidden;
 }
@@ -107,31 +110,44 @@ main {
   border-radius: 10px;
 }
 
-.fruit_violet {
-  background: #8b00ff;
+.fruit_red {
+  border: 5px solid red;
 }
 
-.fruit_green {
-  background: #84cd1b;
-}
-
-.fruit_carmazin {
-  background: #dc143c;
+.fruit_orange {
+  border: 5px solid orange;
 }
 
 .fruit_yellow {
-  background: #ffd800;
+  border: 5px solid yellow;
 }
 
-.fruit_lightbrown {
-  background: #cd853f;
+.fruit_green {
+  border: 5px solid green;
+}
+
+.fruit_lightBlue {
+  border: 5px solid lightblue;
+}
+
+.fruit_blue {
+  border: 5px solid blue;
+}
+
+.fruit_violet {
+  border: 5px solid violet;
+}
+
+
+.fruit_default {
+  border: 5px solid black;
 }
 
 .fruit__info {
   display: flex;
+  border-radius: 4px;
   justify-content: center;
   flex-direction: column;
-  border-radius: 5px;
   background: #fff;
   height: 100%;
   padding: 10px;
